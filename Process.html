@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Process| Emd.</title>
+ <link href="style.css" rel="stylesheet">
+ <!--Google Fonts import for the primary and secondary fonts-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!--The navigation bar including the logo-->
+    <nav>
+        <div class="logo">
+            <h2 class="logo">Emd.</h2>
+        </div>
+        <div class="nav-links">
+            <a href="Home.html" aria-label="Click to go to the Home page">Home</a>
+            <a href="About.html" aria-label="Click to go to the About page">About</a>
+            <a href="Gallery.html" aria-label="Click to go to the Gallery page">Gallery</a>
+            <a href="Resume.html" aria-label="Click to go to the Resume page">Resume</a>
+            <a class="active" href="Process.html" aria-label="Click to go to the Process page">Process</a>
+            <a href="ContactMe.html" aria-label="Click to go to the Contact page">Contact Me</a>
+        </div>
+    </nav>
+    <div class="doc-container">
+        <h1>Process</h1>
+        <br>
+        <h2>Information Architecture (IA)</h2>
+        <hr>
+        <p>I made sure to follow the <strong>structural (global and local navigation), associative, and utility navigation</strong> which allowed me to plan the navigation structure before creating a prototype. This can IA can grow if I or collaborators change anything in the future.</p>
+        <img class="process" src="Images/Personal Website IA.jpg" alt="Information Architecture">
+        <h2>Design Planning</h2>
+        <hr>
+        <h3>Inspiration</h3>
+        <img class="process" src="Images/Project 2 References.jpg" alt="Inspiration">
+        <h3>Fonts</h3>
+        <p>Both the fonts used were from Google fonts and imported through Google fonts as well.</p>
+        <h4>Primary</h4>
+        <p>Funnel Display</p>
+        <h4>Secondary</h4>
+        <p>Nunito Sans</p>
+        <h3>Color Pallete</h3>
+        <p>At first I went with an all blue theme with with a deep blue closer to a black and the lighter blue for text and other items that needed to be legible. I then tried the the black and white and to add interest I added the accent yellow colour to highlight and show certain elements.</p>
+        <p>I was able to create a colour pallete with the <a href="https://coolors.co/">Coolors</a> website. </p>
+        <img class="process" src="Images/Web Pallete.png" alt="Color Pallete">
+        <h4>Primary</h4>
+        <p>Black (#000000)</p>
+        <h4 >Secondary</h4>
+        <p>White (#E9E9E9)</p>
+        <h4 >Accent</h4>
+        <p>Yellow (#FFCE2C)</p>
+        <h3>Accessibility</h3>
+        <p>I then checked the colour pallete with the WebAIM contrast checker which all the color combinations used in the project passed. </p>
+        <img class="process" src="Images/checker 1.png" alt="Contrast Checker ss">
+        <img class="process" src="Images/checker 2.png" alt="Contrast Checker ss 2">
+        <h2>Prototypes</h2>
+        <hr>
+        <p>I create the prototypes using Figma, creating the layout and look of the website following the IA I created previously. I also created components in Figma to easily edit and change the various buttons, navigation elements, and input fields. The pages was created using the reference I have shown above and the following the color pallete since the box layout of the pages allowed for easier division for all the elements inside the page.</p>
+        <p><strong>Below are all the webpages&#39; prototypes:</strong></p>
+        <img class="process" src="Images/Homepage.jpg" alt="home prototype">
+        <img class="process" src="Images/About.jpg" alt="about prototype">
+        <img class="process" src="Images/Gallery.jpg" alt="home prototype">
+        <img class="process" src="Images/Resume.jpg" alt="home prototype">
+        <img class="process" src="Images/Process.jpg" alt="home prototype">
+        <img class="process" src="Images/Contact Me.jpg" alt="home prototype">
+        <img class="process" src="Images/Components.jpg" alt="home prototype">
+        <p>These components allow me or collaborators to edit the layout later if needed. This allows for accessibility for the developers.</p>
+        <h2>Accessibility &amp; Usability</h2>
+        <hr>
+        <ul>
+        <li>I wanted to further the <strong>accessibility</strong> and <strong>usability</strong> with the use of <strong>flexbox</strong> and grid. The navigation bar is able to resize to a smaller width if needed.</li>
+        <li>I also wanted to use redundancy gain by making sure the navigation bar was aligned to the right like most websites.<h3 id="webaim">WebAIM</h3>
+        I then checked the colour pallete with the WebAIM contrast checker which all the color combinations used in the project passed. (Repeated this section to be included in the accessibility section).</li>
+        </ul>
+        <img class="process" src="Images/checker 1.png" alt="Contrast Checker ss">
+        <img class="process" src="Images/checker 2.png" alt="Contrast Checker ss 2">
+        <h3>SVGs</h3>
+        <p>I made a class for the SVGs I have included which allows for collaborators to edit and change the colour of the SVGs or the size of the SVGs.</p>
+        <img src="Images/arrow-right-circle.svg" alt="SVG Example">
+        <h3 id="wcag-2-0-pour">WCAG 2.0 &amp; POUR</h3>
+        <p>With the use of the contrast checker I made sure I used colors that are easy to read and see. All the images do have alt tags which allow for the user to see the alt text if the images do not load for any reason. This will allow the user to know what the possible image that should have been present. I also added the aria-label tags for the navigation which can read out the pages for assisted readers.</p>
+    </div>
+</body>
+<footer>
+    <div class="foot">
+        <p class="footer">Pages</p>
+        <a class="bottom" href="Home.html">Home</a>
+        <a class="bottom" href="About.html">About</a>
+        <a class="bottom" href="Gallery.html">Gallery</a>
+        <a class="bottom" href="Resume.html">Resume</a>
+        <a class="bottom" href="Process.html">Process</a>
+        <a class="bottom" href="ContactMe.html">Contact Me</a>   
+    </div>
+    <div class="foot">
+        <p class="footer">Follow Me</p>
+        <a class="links"  href="https://www.linkedin.com/in/emmad-gilani-237a532a5/">
+            <img class="socials-f" src="Images/linkedin.png">
+        </a>
+        <a class="links" href="https://ca.pinterest.com/swiftyoo/">
+            <img class="socials-f" src="Images/pinterest.png">
+        </a>
+        <a class="links" href="https://emd_g.artstation.com/">
+            <img class="socials-f" src="Images/artstation.png">
+        </a>
+    </div>
+</footer>
+</html>
